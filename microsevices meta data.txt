@@ -1,0 +1,17 @@
+currency-exchange service
+http://localhost:8000/currency-exchange/from/USD/to/TRY
+
+currency COnversion Service
+http://localhost:8100/currency-conversion/from/USD/to/TRY/quantity/10
+http://localhost:8100/currency-conversion-feign/from/USD/to/TRY/quantity/10
+
+naming server(Eureka)
+http://localhost:8761/
+
+api gateway
+http://localhost:8765/
+http://localhost:8765/currency-exchange/from/POUND/to/TRY
+http://localhost:8765/currency-conversion/from/USD/to/TRY/quantity/18
+http://localhost:8765/currency-conversion-feign/from/EURO/to/TRY/quantity/18
+
+http://localhost:8765/look-how-itis-redirected/from/EURO/to/TRY/quantity/222
